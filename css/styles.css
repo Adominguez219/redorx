@@ -10150,7 +10150,7 @@ header.masthead h1 {
   color: rgba(255, 255, 255, 0.75);
 }
 
-.filter-button
+/* .filter-button
 {
     font-size: 18px;
     border: 1px solid #42B32F;
@@ -10169,12 +10169,12 @@ header.masthead h1 {
     color: #ffffff;
     background-color: #42B32F;
 
-}
-.btn-default:active .filter-button:active
+} */
+/* .btn-default:active .filter-button:active
 {
     background-color: #42B32F;
     color: white;
-}
+} */
 
 .port-image
 {
