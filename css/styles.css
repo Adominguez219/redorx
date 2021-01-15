@@ -200,6 +200,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  padding: 5px;
 }
 
 svg {
@@ -10037,7 +10038,7 @@ hr.light {
   color: #f4623a;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #5eb239 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
