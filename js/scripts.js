@@ -62,6 +62,8 @@
 
   $(document).ready(function(){
 
+    $(".filter").not('.const').hide('3000');
+    $('.filter').filter('.const').show('3000');
     $(".filter-button").click(function(){
         var value = $(this).attr('data-filter');
         
@@ -88,3 +90,4 @@ $(this).addClass("active");
 });
 
 })(jQuery); // End of use strict
+

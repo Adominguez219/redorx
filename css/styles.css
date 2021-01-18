@@ -2425,7 +2425,6 @@ textarea.form-control {
 }
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -2450,8 +2449,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: #5eb239;
+  border-color: #4caf22;
   box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2461,8 +2460,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ee3e0d;
-  border-color: #e23a0d;
+  background-color: #307115;
+  border-color: #307115;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
@@ -2684,7 +2683,7 @@ fieldset:disabled a.btn {
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #5eb239;
   border-color: #f4623a;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -10035,7 +10034,7 @@ hr.light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #5eb239;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #5eb239 !important;
@@ -10075,7 +10074,7 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #5eb239;
   }
 }
 
@@ -10151,7 +10150,7 @@ header.masthead h1 {
   color: rgba(255, 255, 255, 0.75);
 }
 
-/* .filter-button
+.filter-button
 {
     font-size: 18px;
     border: 1px solid #42B32F;
@@ -10169,9 +10168,7 @@ header.masthead h1 {
     text-align: center;
     color: #ffffff;
     background-color: #42B32F;
-
-} */
-/* */
+}
 
 .port-image
 {
